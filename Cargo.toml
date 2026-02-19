@@ -1,0 +1,8 @@
+[workspace]
+name = "shared"
+
+members = ["apps/app-1", "apps/app-2", "libs/bar", "libs/foo"]
+
+[workspace.dependencies]
+bar = {path = "libs/bar"}
+foo = {path = "libs/foo"}

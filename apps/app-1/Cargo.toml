@@ -1,0 +1,6 @@
+[package]
+name = "app-1"
+
+[dependencies]
+foo = { workspace =  true }
+bar = { workspace = true }
